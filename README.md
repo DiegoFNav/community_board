@@ -1,32 +1,32 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - University Video Game Club Board
 
-Submitted by: **Your Name Here**
+Submitted by: Diego Navarro
 
-This web app: **insert description**
+This web app: Video Game Club Board
 
-Time spent: **X** hours spent in total
+Time spent: 5 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **There is a unique theme for events or resources relevant to a specific community**
-- [ ] **At least 10 unique resources or events are displayed in a responsive card format**
+- [X] **There is a unique theme for events or resources relevant to a specific community**
+- [X] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 
-- [ ] Buttons or links to a related resources are on each card component
-- [ ] The site is responsive for both desktop and mobile formats
+- [X] Buttons or links to a related resources are on each card component
+- [X] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [X] Card components conditionally render a button only if a link is provided
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Homework_1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -39,9 +39,11 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 
+My main challenge was sizing and fitting elements in the cards so that the text did not go outside the cards. Another smaller challenge was figuring out how to display images as I could not determine the path that images were being rendered from at first.
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2024 Diego Navarro
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
