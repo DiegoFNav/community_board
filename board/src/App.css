@@ -1,37 +1,30 @@
+body {
+  background-color: rgb(31, 31, 31);
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  color: black;
-  background-color: white;
+  color: white;
 }
 
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-.board {
-  background-color: yellow;
-}
 
 .card_container {
   display: flex;
   flex-wrap: wrap;
-  background-color: purple;
+  background-color: rgb(54, 54, 54);
+  border-radius: 15px;
+  padding: 10px;
 }
 
 .card {
   margin: 15px;
   width: 420px;
   height: 350px;
-  background-color: aqua;
+  background-color: rgb(33, 33, 33);
   display: flex;
   flex-direction: column;
   border-radius: 15px;
@@ -69,7 +62,7 @@ body {
 
 @media (min-width: 600px) {
   .card {
-    width: 300px;
+    width: 280px;
     height: 400px;
   }
 

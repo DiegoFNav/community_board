@@ -7,7 +7,7 @@ const Board = () => {
         <div className="board">
             <div className="card_container">
                 <Card title="Super Smash Bros Tournament" 
-                desc="Our monthly tournament will be held next Friday in Room 602, please click the link below to sign up!" 
+                desc="Our monthly tournament will be held next Friday!" 
                 img="Smash.PNG" 
                 link="https://www.smashbros.com/en_US/"/>
                 <Card title="Digital Art Tutorial" 

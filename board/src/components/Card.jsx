@@ -7,7 +7,7 @@ const Card = (props) => {
             <h3>{props.title}</h3>
             <p>{props.desc}</p>
             {props.link ? (
-                <a href={props.link}>
+                <a href={props.link} target="_blank">
                     <button>
                         Click Here!
                     </button>
